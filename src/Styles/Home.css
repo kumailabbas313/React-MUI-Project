@@ -1,0 +1,102 @@
+.home {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .hero {
+    display:flex;
+    flex-direction: column;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better contrast */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .services, .about, .testimonials, .contact {
+    background-color: #fff;
+  }
+  
+  .services h2, .about h2, .testimonials h2, .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-cards, .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-card, .testimonial-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .service-card h3, .testimonial-card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,56 @@
+.about {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-intro {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+  }
+  
+  .about-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .our-mission, .our-vision, .our-team {
+    background-color: #fff;
+  }
+  
+  .our-mission h2, .our-vision h2, .our-team h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .our-team {
+    background-color: #f4f4f4;
+  }
+  
+  .team-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .team-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .team-content p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  

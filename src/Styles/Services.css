@@ -1,0 +1,57 @@
+/* Services.css */
+
+.services {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .service-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-image img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .service-description {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .service-description h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .service-description p {
+    color: #555;
+  }
+  
