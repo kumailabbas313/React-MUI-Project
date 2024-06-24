@@ -7,16 +7,17 @@ import Service3 from '../Assets/Services/Service3.jpg';
 import Service4 from '../Assets/Services/Service4.jpg';
 import Service5 from '../Assets/Services/Service5.jpg';
 import Service6 from '../Assets/Services/Service6.jpg';
+const services = [
+  { image: Service1, title: 'Service 1', description: 'Description of Service 1.' },
+  { image: Service2, title: 'Service 2', description: 'Description of Service 2.' },
+  { image: Service3, title: 'Service 3', description: 'Description of Service 3.' },
+  { image: Service4, title: 'Service 4', description: 'Description of Service 4.' },
+  { image: Service5, title: 'Service 5', description: 'Description of Service 5.' },
+  { image: Service6, title: 'Service 6', description: 'Description of Service 6.' },
+];
 
 const Services = () => {
-  const services = [
-    { image: Service1, title: 'Service 1', description: 'Description of Service 1.' },
-    { image: Service2, title: 'Service 2', description: 'Description of Service 2.' },
-    { image: Service3, title: 'Service 3', description: 'Description of Service 3.' },
-    { image: Service4, title: 'Service 4', description: 'Description of Service 4.' },
-    { image: Service5, title: 'Service 5', description: 'Description of Service 5.' },
-    { image: Service6, title: 'Service 6', description: 'Description of Service 6.' },
-  ];
+  
 
   return (
     <div className="services">

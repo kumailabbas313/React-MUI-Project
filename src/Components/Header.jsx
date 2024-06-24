@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import '../Styles/Header.css';
 import Logo from "../Assets/Logo/Logo.png";
 
+
 const Header = () => {
   return (
     <header className="header">
