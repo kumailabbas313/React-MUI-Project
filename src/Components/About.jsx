@@ -2,8 +2,10 @@ import React from 'react';
 import '../Styles/About.css';
 import team from '../Assets/About/team.jpg'; // Adjust the path if necessary
 import Ratings from '../Features/Ratings';
+import { useCardContext } from '../context/CardContext';
 
 const About = () => {
+  const { cardComponent } = useCardContext();
   return (
     <div className="about">
       <section className="about-intro">
@@ -29,10 +31,16 @@ const About = () => {
         </div>
       </section>
 
-      <section style={{alignContent:'center'}}>
+      <section >
         <h3>Give Us Ratings</h3>
-        <Ratings/>
+        < Ratings />
       </section>
+      {cardComponent && (
+        <div>
+          <h3>Shared Card:</h3>
+          {cardComponent}
+        </div>
+      )}
     </div>
   );
 };

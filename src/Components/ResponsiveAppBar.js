@@ -19,6 +19,7 @@ const pages = [
   { id: 2, title: 'About', path: '/about' },
   { id: 3, title: 'Services', path: '/services' },
   { id: 4, title: 'Contact Us', path: '/contactus' },
+  { id: 5, title: 'Services1', path: '/services1' }
 ];
 
 function ResponsiveAppBar() {

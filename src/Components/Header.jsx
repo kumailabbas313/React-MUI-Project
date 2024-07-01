@@ -18,6 +18,7 @@ const Header = () => {
           <li><Link to='/About'>About Us</Link></li>
           <li><Link to='/Services'>Services</Link></li>
           <li><Link to='/ContactUs'>Contact Us</Link></li>
+          <li><Link to='/Services1'>Services1</Link></li>
         </ul>
       </nav>
       <div className="search-bar">
